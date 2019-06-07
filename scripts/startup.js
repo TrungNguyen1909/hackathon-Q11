@@ -8,12 +8,12 @@ function setup() {
 }
 
 function preload() {
-    font = loadFont('iCielParisSerif-Bold.otf');
-    imgchair = loadImage('chair2.png');
-    imgumb = loadImage('um2.png');
-    backg = loadImage('Asset 1.png');
-    instimg = loadImage('instback.jpg');
-    optimg = loadImage('optback.jpg');
+    font = loadFont('assets/ShowcaseSans.ttf');
+    imgchair = loadImage('assets/chair2.png');
+    imgumb = loadImage('assets/um2.png');
+    backg = loadImage('assets/Asset 1.png');
+    instimg = loadImage('assets/instback.jpg');
+    optimg = loadImage('assets/optback.jpg');
 }
 
 function startscreen() {
@@ -133,5 +133,8 @@ function draw() {
     else if (screen == 3) play();
 }
 function play() {
-
+    Ppreload()
+    Psetup()
+    mouseClicked = PmouseClicked
+    return draw = Pdraw;
 }
