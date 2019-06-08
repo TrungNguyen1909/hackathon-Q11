@@ -149,8 +149,10 @@ function checkWin() {
         }
     }
     if (win == 1) {
-        fill('black')
-        text("YOU WIN", posX, posY - 20);
+        fill('green')
+        textSize(50);
+        text("YOU WIN", 300, 300);
+        return;
     }
 }
 
